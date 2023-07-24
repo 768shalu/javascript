@@ -1,0 +1,11 @@
+body{
+    background-image:url("https://indyschild.com/wp-content/uploads/2017/04/rainy-day.jpeg"); 
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+h2{
+   color:rgb(27, 190, 27);
+}
+table{
+    color:rgb(196, 19, 181)
+}

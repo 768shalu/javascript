@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //document.write("1.Addition <br>2.Substraction <br>3.Multiplication <br> 4.Division")
+        var choice = parseInt(prompt("Enter the choice:"))
+        var a = parseInt(prompt("Enter 1st num:"))
+        var b = parseInt(prompt("Enter 2nd num:"))
+        var c;
+        
+        switch(choice)
+        {
+            case 1:
+                c=a+b;
+                document.write(c);
+                break;
+            case 2:
+                c=a-b;
+                document.write(c);
+                break; 
+            case 3:
+                c=a*b;
+                document.write(c);
+                break; 
+            case 4:
+                c=a/b;
+                document.write(c);
+                break;    
+            default:
+                    document.write("Not Found");
+        }
+    </script>
+</body>
+</html>

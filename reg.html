@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <style>
+        body{
+            border-style: groove;
+            background-color: bisque;
+            border-color: rgb(0,255,0);
+            
+        }
+        h2{
+            text-align: center;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h2>REGISTRATION FORM</h2>
+    <form>
+        <center>
+            <table>
+                <tr>
+                    <td>
+                        First Name
+                    </td>
+                    <td>    
+                        <input type="text"name="reg"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Address
+                    </td>
+                    <td>    
+                        <input type="text"name="reg"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Date of Birth
+                    </td>
+                    <td>    
+                        <input type="date"name="reg"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email
+                    </td>
+                    <td>    
+                        <input type="email"name="reg"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password
+                    </td>
+                    <td>    
+                        <input type="password"name="reg"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Re-type password
+                    </td>
+                    <td>    
+                        <input type="password"name="reg"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                             Gender
+                        </label><br><br>
+                    </td>
+                    <td>  
+                            <input type="radio"name="female"/>Female<br>
+                            <input type="radio"name="Male"/>Male<br> 
+                            <input type="radio"name="Other"/>Other<br>         
+                    </td>
+                </tr>       
+                <tr>
+                    <td>
+                       Courses: <select name="courses">
+                                         <option value="choose option">choose option</option>
+                                         <option value="Python Full Stack Development">Python</option>
+                                         <option value="Data Science">DS</option>
+                                         <option value="Data Analayitics">DA</option>
+                                         <option value="UI/UX">UI/UX</option>
+                                      </select><br><br>             
+                    </td>
+                </tr>         
+                <tr>
+                    <td>
+                        <div>
+                            <input type="submit" value="submit"name="Submit">
+                            <input type="reset" class="reset"name="Reset">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </form>
+</body>
+</html>
